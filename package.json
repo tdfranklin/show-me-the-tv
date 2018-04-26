@@ -1,0 +1,35 @@
+{
+  "name": "show-me-the-tv",
+  "version": "1.0.0",
+  "description": "App to search TV Shows",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tdfranklin/show-me-the-tv.git"
+  },
+  "author": "Tyler D. Franklin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tdfranklin/show-me-the-tv/issues"
+  },
+  "homepage": "https://github.com/tdfranklin/show-me-the-tv#readme",
+  "dependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.15",
+    "webpack-dev-server": "^3.1.3"
+  }
+}
