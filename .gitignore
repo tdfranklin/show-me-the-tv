@@ -57,3 +57,7 @@ typings/
 # dotenv environment variables file
 .env
 
+# public build folder and zip
+public/
+*.zip
+

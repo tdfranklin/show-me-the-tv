@@ -72,6 +72,7 @@ class TVShowResults extends Component {
                     open={this.state.open}
                     onRequestClose={this.handleClose}
                     contentStyle={dialogStyle}
+                    autoScrollBodyContent={true}
                 >
                     <img src={this.state.currentShow.image} alt="" style={{ width: '30%', height: '50%', float: 'left', marginRight: 50 }} />
                     <a href={this.state.currentShow.website} target='_blank'><h1 style={{ paddingTop: 100, textDecoration: 'underline', color: 'white' }}>{this.state.currentShow.name}</h1></a>
