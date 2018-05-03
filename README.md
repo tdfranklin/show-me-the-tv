@@ -4,7 +4,7 @@
 
 ---
 
-Show Me The TV is a web application that can be used to search and view information about TV Shows.  It is a Full Stack Javascript web application built with Node/Express on the back end and React on the front end and deployed using AWS Elastic Beanstalk.  It queries The Movie Database API using Axios to get information on the shows and it is styled using Material UI (React components that implement Google's Material Design).
+Show Me The TV is a web application that can be used to search and view information about TV Shows and Movies.  It is a Full Stack Javascript web application built with Node/Express on the back end and React on the front end and deployed using AWS Elastic Beanstalk.  It queries The Movie Database API using Axios to get information on the shows and it is styled using Material UI (React components that implement Google's Material Design).
 
 ---
 
@@ -53,7 +53,6 @@ Lastly, there is sometimes some weird interaction when deleting text from the se
 
 The next features I would have liked to add would be (in order):
 
-1. A menu to toggle between searching TV Shows and Movies
-2. A cleaner, more vibrant display when you click on show to get more information (it's pretty boring on PC and on mobile doesn't always line up perfectly).
-3. A "similar shows/movies" section when you click to view more info that would display 2 or 3 related items at the bottom with a link that would bring up info for them.
-4. Implement a database and user authentication to allow users to log into the site and save/view favorites for TV shows and movies as well as see recommended titles.
+1. A cleaner, more vibrant display when you click on show to get more information (it's pretty boring on PC and on mobile doesn't always line up perfectly).
+2. A "similar shows/movies" section when you click to view more info that would display 2 or 3 related items at the bottom with a link that would bring up info for them.
+3. Implement a database and user authentication to allow users to log into the site and save/view favorites for TV shows and movies as well as see recommended titles.
