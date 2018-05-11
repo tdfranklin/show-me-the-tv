@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search matches the snapshot 1`] = `
+<div>
+  <TextField
+    disabled={false}
+    floatingLabelFixed={false}
+    floatingLabelText="Search for TV Shows"
+    fullWidth={true}
+    multiLine={false}
+    name="searchText"
+    onChange={[Function]}
+    rows={1}
+    type="text"
+    underlineShow={true}
+    value=""
+  />
+  <br />
+  <Tabs
+    initialSelectedIndex={0}
+    onChange={[Function]}
+    style={
+      Object {
+        "marginBottom": "1%",
+      }
+    }
+    value="tv"
+  >
+    <Tab
+      label="TV"
+      style={
+        Object {
+          "background": "#1c1d1d",
+          "color": "darkgrey",
+          "fontSize": "20px",
+        }
+      }
+      value="tv"
+    />
+    &gt;
+    <Tab
+      label="Movies"
+      style={
+        Object {
+          "background": "#1c1d1d",
+          "color": "darkgrey",
+          "fontSize": "20px",
+        }
+      }
+      value="movies"
+    />
+    &gt;
+  </Tabs>
+</div>
+`;

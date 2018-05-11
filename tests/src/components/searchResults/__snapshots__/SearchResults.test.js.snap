@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchResults matches the snapshot 1`] = `
+<div>
+  <GridList
+    cellHeight={180}
+    cols={3}
+    padding={4}
+  />
+  <Dialog
+    actions={
+      Array [
+        <FlatButton
+          disabled={false}
+          fullWidth={false}
+          label="Close"
+          labelPosition="after"
+          labelStyle={Object {}}
+          onClick={[Function]}
+          onKeyboardFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onTouchStart={[Function]}
+          primary={true}
+          secondary={false}
+        />,
+      ]
+    }
+    autoDetectWindowHeight={true}
+    autoScrollBodyContent={true}
+    contentStyle={
+      Object {
+        "marginTop": "-8%",
+        "maxWidth": "90%",
+        "width": "100%",
+      }
+    }
+    modal={false}
+    onRequestClose={[Function]}
+    open={false}
+    repositionOnUpdate={true}
+  >
+    <div>
+      <img
+        alt=""
+        style={
+          Object {
+            "float": "left",
+            "height": "50%",
+            "marginRight": 50,
+            "width": "30%",
+          }
+        }
+      />
+      <a
+        target="_blank"
+      >
+        <h1
+          style={
+            Object {
+              "color": "white",
+              "paddingTop": 100,
+              "textDecoration": "underline",
+            }
+          }
+        />
+      </a>
+      <br />
+      <p />
+      <br />
+      <p>
+        Genre: 
+      </p>
+      <p>
+        Episodes: 
+      </p>
+      <p>
+        Seasons: 
+      </p>
+      <p>
+        Rating: 
+      </p>
+      <p>
+        Status: 
+      </p>
+    </div>
+  </Dialog>
+</div>
+`;

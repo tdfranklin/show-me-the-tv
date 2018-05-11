@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar matches the snapshot 1`] = `
+<AppBar
+  showMenuIconButton={false}
+  title="Show Me The TV!"
+  zDepth={1}
+/>
+`;
